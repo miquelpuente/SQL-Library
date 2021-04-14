@@ -1,0 +1,11 @@
+// Setting table as Multi User
+USE [master];
+GO
+ALTER DATABASE [NombreDeLaBD] SET MULTI_USER WITH NO_WAIT;
+GO
+
+// Setting table as Single User
+USE [master];
+GO
+ALTER DATABASE [NombreDeLaBD] SET SINGLE_USER WITH NO_WAIT;
+GO
