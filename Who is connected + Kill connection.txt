@@ -1,0 +1,6 @@
+// See who is connected in the databases
+exec sp_who
+go
+
+// We need to get the SPID from last command and kill the user
+KILL SPID
