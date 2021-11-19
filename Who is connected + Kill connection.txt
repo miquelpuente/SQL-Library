@@ -1,3 +1,5 @@
+Quitar los servicios de WWW y los de microsoft + Apagar el IIS
+
 // See who is connected in the databases
 exec sp_who
 go
